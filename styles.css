@@ -36,9 +36,14 @@ body {
 }
 
 .nav ul li a {
+    font-family: sans-serif;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .hero {
@@ -70,6 +75,7 @@ body {
     position: relative;
     z-index: 2;
     margin-top: 410px; 
+    margin-left: 30px;
 }
 
 .hero h1 {
@@ -112,6 +118,7 @@ body {
 .additional-section {
     padding: 40px 0;
     background-color: #f9fafb; 
+    padding-left: 40px;
 }
 
 .section-header {
@@ -153,6 +160,12 @@ body {
     padding: 20px;
     text-align: left;
     
+}
+
+.card h3{
+    position: relative;
+    font-size: 1.3em;
+    bottom: 45px;
 }
 
 .card img {
@@ -234,7 +247,7 @@ body {
 
 
 .markets-served {
-    padding: 60px 20px;
+    padding: -1px 20px;
     background-color: #fff; 
 }
 
@@ -249,11 +262,12 @@ body {
     flex: 1;
     max-width: 50%;
     position: relative;
+    padding-left: 30px;
 }
 
 .map-container img {
     left: 94px;
-    width: 71%;
+    width: 69%;
     height: auto;
     border-radius: 10px;
     position: relative;
@@ -289,7 +303,7 @@ body {
 .markets-content h2 {
     font-size: 2.5rem;
     color: #2b2d42;
-    margin-bottom: 20px;
+    margin-bottom: 43px;
 }
 
 .markets-content p {
@@ -327,35 +341,36 @@ body {
 }
 
 .anchor1{
-    right: 121px;
+    right: 136px;
     color: grey;
     text-decoration: none;
     position: relative;
-    top: 39px;
+    top: 19px;
+    
 
 }
 .anchor2{
-    right: 200px;
+    right: 218px;
     color: grey;
     text-decoration: none;
     position: relative;
-    top: 39px;
+    top: 19px;
 
 }
 .anchor3{
-    right: 141px;
+    right: 156px;
     color: grey;
     text-decoration: none;
     position: relative;
-    top: 39px;
+    top: 19px;
 
 }
 .anchor4{
-    right: 212px;
+    right: 231px;
     color: grey;
     text-decoration: none;
     position: relative;
-    top: 39px;
+    top: 19px;
 
 }
 
@@ -375,7 +390,7 @@ body {
 .cta-button1 {
     
     position: relative;
-    top: 17px;
+    top: 60px;
     padding: 12px 24px;
     background-color: #FFD700;
     color: #333;
@@ -407,6 +422,7 @@ body {
     flex: 1;
     min-width: 200px;
     margin: 10px;
+    margin-left: 55px;
 }
 
 .support{
@@ -535,9 +551,11 @@ body {
 }
 
 .testimonials {
-    padding: 40px 0;
+    padding: 190px 0;
     background-color: #f9fafb;
     text-align: left;
+    padding-left: 30px;
+    padding-bottom:130px;
 }
 
 .testimonial-nav {
@@ -546,6 +564,7 @@ body {
     margin-top: 20px;
     position: relative;
     bottom: 62px;
+    width: 96%;
 }
 
 .testimonials h2 {
@@ -565,11 +584,11 @@ body {
 }
 
 .testimonial-item {
-    flex: 0 0 60%;
+    flex: 0 0 62%;
     max-width: 80%;
     background: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     scroll-snap-align: start; 
     display: flex;
@@ -639,23 +658,23 @@ body {
     height:20px;
     border-radius: none;
     position: relative;
-    top: 39px;
+    top: 60px;
 }
 .map-container .redloc{
     width: 20px;
     height:20px;
     border-radius: none;
     position: relative;
-    top: 9px;
+    top: 30px;
 }
 
 .red-text span {
-    top: -20px;
+    top: 1px;
     position: relative;
     left: 138px;
 }
 .blue-text span {
     position: relative;
     left: 138px; 
-    top: 9px;
+    top: 30px;
 }
